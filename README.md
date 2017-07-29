@@ -29,6 +29,6 @@ The image produced is fully functional , some nodes have been modified for the c
 ## dd if=original_firmware.bin bs=1 of=stripped_firmware.bin skip=512
       
       
-![Preview](https://raw.githubusercontent.com/Sputkin/Tp-link-W8960NV5-firmware-source-code/master/img/wbs.png)
+![Preview](https://raw.githubusercontent.com/Sputkin/Tp-link-W8960NV5-firmware-source-code-/master/img/wbs.png)
 
 
