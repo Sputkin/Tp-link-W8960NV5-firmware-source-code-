@@ -23,7 +23,7 @@ download link https://drive.google.com/file/d/0B3jG8LulloMTTjVjYThyTlU4b28/view?
    
 ### NOTE
       
-The image produced is fully functional , some nodes have been modified for the correct startup and the interface of the     uhttpd webserver has been modified. You can add new binary and more .To restore the original image , download the right firmware version and then do 
+The image produced is fully functional ( including the ADSL(+) part ) , some nodes have been modified for the correct startup and the interface of the     uhttpd webserver has been modified. You can add new binary and more .To restore the original image , download the right firmware version and then do 
      
 
 ## dd if=original_firmware.bin bs=1 of=stripped_firmware.bin skip=512
