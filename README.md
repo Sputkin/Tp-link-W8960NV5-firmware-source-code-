@@ -5,6 +5,12 @@ download link https://drive.google.com/file/d/11WJ8CjQKWqkitMXwSBY5FbCtMtFkUPXT/
 
 ### step 1 
 
++ install dependencies
++ NOTE: the whole procedure was tested on a 32-bit ubuntu machine
+
+      sudo apt-get install libncurses5-dev gawk gettext unzip file libssl-dev
+      sudo apt-get install flex bison gcc-multilib g++ zlib1g-dev build-essential
+
 + Decompress the archive with your favorite tool.
 + Use the ./prepare script to install and decompress uclibc and source or do this manually moving the toolchain to / opt.
 
@@ -13,6 +19,7 @@ download link https://drive.google.com/file/d/11WJ8CjQKWqkitMXwSBY5FbCtMtFkUPXT/
       
 + cd TD-W8960Nv5.0_consumer 
 + make PROFILE=W8960NV5
++ the images can be found in {ROOTDIR}/images
 
                                                      
 ### step 3
